@@ -42,20 +42,33 @@ Next I would download and install VC_redist.x86.exe and MySQL 5.5.62. Mysql shou
 ![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/3d57b89d-183d-4287-9bec-742c777dafd1)
 
 <br />
-The next step includes running IIS as an admin. From there, we would register PHP in IIS
+The next step includes running IIS as an admin. From there, we would register PHP in IIS.  Now we are ready to install osTicket. 
 
 ![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/c1aa67f7-68df-4166-90a9-302c50426f3b)
 
+There are more steps that include:
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Downloading osTicket from the Installation Files Folder
+
+Extract and copy “upload” folder to c:\inetpub\wwwroot
+
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
+![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/868994dc-9afe-448a-9e8e-ac8d4f4916c3)
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once that is completed, We would have to go back to IIS and start the server over.   From here, on IIS, Go to sites -> Default -> osTicket and select “Browse *:80”
+
+  ![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/2c5a974d-d59d-4091-aaab-04e05ca2c26f).
+
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
