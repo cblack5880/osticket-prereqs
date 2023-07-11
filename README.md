@@ -63,15 +63,28 @@ Once that is completed, We would have to go back to IIS and start the server ove
 
   ![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/2c5a974d-d59d-4091-aaab-04e05ca2c26f).
 
+There would be some extenstions to enable for it to run correctly. By going back to PHP manager, we would be able to enable:
+
+Enable: php_imap.dll
+
+Enable: php_intl.dll
+
+Enable: php_opcache.dll
+
+![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/545b5985-634e-4e6d-9b55-ed4fd2c5d940)
+
 
 </p>
-<br />
-
 <p>
+The next step is installing HeidiSQL. This is the database client for OsTicket.   I would create a new connection to this database.  It would look like this after using MySQl credentials.
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-# osticket-prereqs
+  ![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/1e66b1c4-6638-4611-b23d-be685c6ddcd0)
+
+  Once this program is set up,  we would create a database in HediSQL callede "osTicket".
+
+  ![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/1d87b28e-a0e8-4e80-8686-9cba7c301718)
+
+There will be credentials that you would have to fill out in the osTicket yourself. After that, The install is complete. 
+
+![image](https://github.com/cblack5880/osticket-prereqs/assets/138612466/5f9585a6-d53a-4ff0-983f-4e71de7269b7)
+
